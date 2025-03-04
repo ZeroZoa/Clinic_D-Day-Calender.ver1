@@ -22,9 +22,15 @@ roh100438@gmail.com
 
 
 
-##2023.6.27
+## 2023.6.27
 <div align="center">
   자바스크립트를 처음 배우고 개발한 웹 서비스입니다.
   제가 아르바이트를 하는 병원에서 환자가 받아가야할 처방약의 갯수를 계산하기 위한 디데이캘린더입니다.
   달력의 날짜를 선택하면 오늘로부터 디데이가 계산되며, 용량에 맞춰 약의 갯수가 결정됩니다.
+</div>
+
+<div align="center">
+  <a href="https://ghclinic2.netlify.app">
+    <img src="https://img.shields.io/badge/Visit%20Website-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"/>
+  </a>
 </div>
