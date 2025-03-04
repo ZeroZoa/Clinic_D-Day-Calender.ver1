@@ -4,7 +4,7 @@
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=90&section=footer)
 
 
-
+## 기술 스택
 <div align="center">
   <img src="https://img.shields.io/badge/JavaScript-092E20?style=flat&logo=JavaScript&logoColor=#F7DF1E"/>
   <img src="https://img.shields.io/badge/HTML-092E20?style=flat&logo=HTML5&logoColor=#E34F26"/>
