@@ -1,2 +1,2 @@
 # GHClinic D-Day-Calender
-![header](https://capsule-render.vercel.app/api?type=venom&color=auto&height=300&section=header&text=Noh%20Seung%20Jun&fontSize=90&rotate=-12-nl-&text=Side%20Project)
+![header](https://capsule-render.vercel.app/api?type=venom&color=auto&height=300&section=header&text=Noh%20Seung%20Jun&fontSize=90&rotate=-12-nl-&text=Noh%20Seung%20Jun&fontSize=90&rotate=-12)
