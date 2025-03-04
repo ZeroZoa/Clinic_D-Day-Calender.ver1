@@ -1,0 +1,106 @@
+<html>
+<head>
+    <title>GH 디데이달력</title>
+    <link rel="stylesheet" href="dday.css">
+    <script src="dday.js"></script>
+</head>
+    
+<body>
+    <div class="container">
+        <div class="calendar">
+            <h2>예약 달력</h2>
+            <br/>
+            <table class="scriptResCalendar">
+                <thead>
+                    <tr>
+                        <td class="RescalendarBtn" id="btnPrevResCalendar">&#60;&#60;</td>
+                        <td colspan="5">
+                            <span id="resCalYear">YYYY</span>년
+                            <span id="resCalMonth">MM</span>월
+                        </td>
+                        <td class="RescalendarBtn" id="nextNextResCalendar">&#62;&#62;</td>
+                    </tr>
+                    <tr>
+                        <td>일</td><td>월</td><td>화</td><td>수</td><td>목</td><td>금</td><td>토</td>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <div class="insertPlace">
+            <div class="placeForSpace">
+                <h2 class="ddayCal">디데이 계산기</h2>
+                <div class="startDayDiv">
+                    <h4>시작일</h4>
+                    <input type="text" id="startDay">
+                </div>
+                <div class="endDayDiv">
+                    <h4>종료일</h4>
+                    <input type="text" id="endDay">
+                </div>
+                <div class="calDayDiv">
+                    <h4>디데이</h4>
+                    <input type="text" id="calDday">
+                </div>
+                <div class="mediNumDiv">
+                    <div style="display: flex; flex-direction: column;">
+                        <div>
+                            <div>
+    <input type="text" value="2단위" style="width: 25%; font-size: 20px; text-align: center; background-color: #79d3e1; border: 2px solid #007bff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);">
+    <input type="text" id="mediNum1" style="width: 50%; font-size: 20px; text-align: center; background-color: #79d3e1; border: 2px solid #007bff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);">
+</div>
+<div>
+    <input type="text" value="3단위" style="width: 25%; font-size: 20px; text-align: center; border: 2px solid #007bff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);">
+    <input type="text" id="mediNum2" style="width: 50%; font-size: 20px; text-align: center; border: 2px solid #007bff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);">
+</div>
+<div>
+    <input type="text" value="4단위" style="width: 25%; font-size: 20px; text-align: center; background-color: #79d3e1; border: 2px solid #007bff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);">
+    <input type="text" id="mediNum3" style="width: 50%; font-size: 20px; text-align: center; background-color: #79d3e1; border: 2px solid #007bff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);">
+</div>
+<div>
+    <input type="text" value="4.3단위" style="width: 25%; font-size: 20px; text-align: center; border: 2px solid #007bff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);">
+    <input type="text" id="mediNum4" style="width: 50%; font-size: 20px; text-align: center; border: 2px solid #007bff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);">
+</div>
+<div>
+    <input type="text" value="5단위" style="width: 25%; font-size: 20px; text-align: center; background-color: #79d3e1; border: 2px solid #007bff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);">
+    <input type="text" id="mediNum5" style="width: 50%; font-size: 20px; text-align: center; background-color: #79d3e1; border: 2px solid #007bff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);">
+</div>
+<div>
+    <input type="text" value="6단위" style="width: 25%; font-size: 20px; text-align: center; border: 2px solid #007bff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);">
+    <input type="text" id="mediNum6" style="width: 50%; font-size: 20px; text-align: center; border: 2px solid #007bff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);">
+</div>
+<div>
+    <input type="text" value="7.5단위" style="width: 25%; font-size: 20px; text-align: center; background-color: #79d3e1; border: 2px solid #007bff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);">
+    <input type="text" id="mediNum7" style="width: 50%; font-size: 20px; text-align: center; background-color: #79d3e1; border: 2px solid #007bff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);"> 
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="calendar">
+            <!-- <h2>이번 달 달력</h2> -->
+            <br/>
+            <table class="scriptCalendar">
+                <thead>
+                    <tr>
+                        <td class="calendarBtn" id="btnPrevCalendar">&#60;&#60;</td>
+                        <td colspan="5">
+                            <span id="calYear">YYYY</span>년
+                            <span id="calMonth">MM</span>월
+                        </td>
+                        <td class="calendarBtn" id="nextNextCalendar">&#62;&#62;</td>
+                    </tr>
+                    <tr>
+                        <td>일</td><td>월</td><td>화</td><td>수</td><td>목</td><td>금</td><td>토</td>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

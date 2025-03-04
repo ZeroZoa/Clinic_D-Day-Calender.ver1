@@ -1,0 +1,135 @@
+a { color:#000000;text-decoration:none; }
+        .scriptCalendar { text-align:center; }
+        .scriptCalendar > thead > tr > td { width:50px;height:50px; }
+        .scriptCalendar > thead > tr:first-child > td { font-weight:bold; }
+        .scriptCalendar > thead > tr:last-child > td { background-color:#90EE90; }
+        .scriptCalendar > tbody > tr > td { width:50px;height:50px; }
+        .calendarBtn { cursor:pointer; } 
+
+        .scriptResCalendar { text-align:center; }
+        .scriptResCalendar > thead > tr > td { width:50px;height:50px; }
+        .scriptResCalendar > thead > tr:first-child > td { font-weight:bold; }
+        .scriptResCalendar > thead > tr:last-child > td { background-color:#79d3e1; }
+        .scriptResCalendar > tbody > tr > td { width:50px;height:50px; }
+        .RescalendarBtn { cursor:pointer; } 
+
+.placeForSpace{
+        margin-left: 22px;
+        display: flex;
+        display: grid;
+        place-items: center;
+}
+
+
+
+.container {
+        display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top:40px;
+}
+
+.calendar {
+        margin-left: 40px;
+        margin-right: 40px;
+}
+
+.insertPlace {
+        margin-left: 40px;
+        margin-right: 40px;
+        width: auto;
+        height: auto;
+        border: 2px solid rgb(185, 184, 184);
+    
+        /* 가운데 정렬 추가 */
+        display: flex;
+        flex-direction: column; /* 요소들을 세로 정렬 */
+        align-items: center; /* 수직 중앙 정렬 */
+        justify-content: center; /* 수평 중앙 정렬 */
+        text-align: center; /* 텍스트도 가운데 정렬 */
+    }
+
+.ddayCal {
+        margin-bottom:10px;
+}
+
+.degreeDiv {
+        display: flex;
+        width:auto;
+        margin-bottom: 5px;
+        margin-right: 205px;
+}
+
+.degreeSel {
+        height:40px;
+        width:auto;
+        font-size: 18px;
+        margin-left: 20px;
+        margin-top: 10px;
+}
+
+
+#startDay {
+        width: 140px;
+        height: 40px;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 50px;
+}
+
+#endDay {
+        width: 140px;
+        height: 40px;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 50px;
+}
+
+#calDday {
+        width: 100px;
+        height: 40px;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 50px;
+}
+
+#mediNum {
+        width: auto;
+        height: 40px; 
+        font-size: 20px;  
+        margin-left: 10px; 
+        margin-right: 50px; 
+}
+
+.startDayDiv{
+        display: inline-flex;
+        margin-bottom: 10px;
+        align-items: center;
+}
+
+.endDayDiv{
+        display: inline-flex;
+        margin-bottom: 10px;
+        align-items: center;
+}
+
+.calDayDiv{
+        display: inline-flex;
+        margin-bottom: 10px;
+        align-items: center;
+}
+
+.mediNumDiv{
+        display: inline-flex;
+        align-items: center;
+        margin-left: 20%;
+        margin-bottom: 10px;
+}
+
+.scriptCalendar {
+        visibility: hidden; /* 요소는 숨겨지지만 공간은 차지합니다. */
+    }
+
+.degreeDiv{
+        visibility: hidden;
+}
